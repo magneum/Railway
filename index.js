@@ -92,6 +92,7 @@ var msgRetryCounterMap = MessageRetryMap;
   }
 });
 νℓpage.get("/", (req, res) => res.redirect("https://krykenz.github.io/Vlkyre"));
+νℓpage.get("/health", (req, res) => res.send(res));
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
 async function кяукєηz() {
   await sequelize.sync();
