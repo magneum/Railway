@@ -14,14 +14,14 @@
 */
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
 require("../global.js");
-module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
-  require("./graphine")(νℓкуяє, νℓcнαт, update, store);
-  require("./kronLink")(νℓкуяє, νℓcнαт, update, store);
+module.exports = async (νℓкуяє, vcнaт, update, store) => {
+  require("./graphine")(νℓкуяє, vcнaт, update, store);
+  require("./kronLink")(νℓкуяє, vcнaт, update, store);
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
-  if (νℓcнαт.isGroup && νℓкуяє.command) {
+  if (vcнaт.isGroup && νℓкуяє.command) {
     νℓкуяє.userBanCheck.findOne(
       {
-        ID: νℓcнαт.sender,
+        ID: vcнaт.sender,
       },
       (error, banCheck) => {
         if (error) {
@@ -34,7 +34,7 @@ module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
         }
         νℓкуяє.userBanCheck.findOne(
           {
-            ID: νℓcнαт.chat,
+            ID: vcнaт.chat,
           },
           async (error, groupCheck) => {
             if (error) {
@@ -55,11 +55,11 @@ module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
               !νℓкуяє.fromMe &&
               !νℓкуяє.isModerator &&
               !νℓкуяє.letResp.includes(νℓкуяє.command) &&
-              !νℓкуяє.memberRespA.includes(νℓcнαт.sender)
+              !νℓкуяє.memberRespA.includes(vcнaт.sender)
             ) {
               return await νℓкуяє.imgB(
                 νℓкуяє,
-                νℓcнαт,
+                vcнaт,
                 `*📢Verification Needed*
 *😥Sorry:* _${νℓкуяє.pushname}_
 
@@ -70,7 +70,7 @@ module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
                 "https://i.postimg.cc/G2YxctNp/Verity-Vlkyre.png"
               );
             }
-            return await require("./router")(νℓкуяє, νℓcнαт, update);
+            return await require("./router")(νℓкуяє, vcнaт, update);
           }
         );
       }

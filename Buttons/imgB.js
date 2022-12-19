@@ -13,19 +13,19 @@
 ╚════════════╝
 */
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
-module.exports = async (νℓкуяє, νℓcнαт, 𝚌𝚘𝚗𝚝є𝚡𝚝, imåge) => {
+module.exports = async (νℓкуяє, vcнaт, 𝚌𝚘𝚗𝚝є𝚡𝚝, imåge) => {
   try {
     return await νℓкуяє.sendMessage(
-      νℓcнαт.chat,
+      vcнaт.chat,
       {
         image: { url: imåge },
         caption: `*🕊️You:* ${νℓкуяє.pushname || "ɴᴏ_ɴᴀᴍᴇ"}\n*📢ID:* ${
-          νℓcнαт.chat
+          vcнaт.chat
         }
 
 ${𝚌𝚘𝚗𝚝є𝚡𝚝}`,
         footer: `*VLkyre™ By KryKenz*\n*💻HomePage:* krykenz.github.io/Vlkyre`,
-        mentions: [νℓcнαт.sender],
+        mentions: [vcнaт.sender],
         buttons: [
           {
             buttonId: `${νℓкуяє.prefix}Commands`,
@@ -41,12 +41,12 @@ ${𝚌𝚘𝚗𝚝є𝚡𝚝}`,
         headerType: 4,
       },
       {
-        quoted: νℓcнαт,
+        quoted: vcнaт,
       }
     );
   } catch (error) {
     console.log("❗𝐄𝐫𝐫𝐨𝐫: " + νℓкуяє.command.toUpperCase() + " :" + error);
-    return νℓcнαт.reply(
+    return vcнaт.reply(
       `*😥Sorry:* _${νℓкуяє.pushname}_
 *❌Error* 
 > _There has been an API Error. Please try again later._

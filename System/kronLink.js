@@ -53,7 +53,7 @@ var { exec, spawn, execSync } = require("child_process");
 var { TelegraPh, UploadFileUgu, webp2mp4File } = require("./uploader");
 var { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter");
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
-module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
+module.exports = async (νℓкуяє, vcнaт, update, store) => {
   νℓкуяє.performance = performance;
   νℓкуяє.createWorker = createWorker;
   νℓкуяє.JSDOM = JSDOM;
@@ -223,20 +223,20 @@ module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
   νℓкуяє.prefix = prefix;
   νℓкуяє.mods = mods;
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
-  νℓкуяє.gmeta = νℓcнαт.isGroup
-    ? await νℓкуяє.groupMetadata(νℓcнαт.chat).catch((e) => {})
+  νℓкуяє.gmeta = vcнaт.isGroup
+    ? await νℓкуяє.groupMetadata(vcнaт.chat).catch((e) => {})
     : "";
-  νℓкуяє.groupName = νℓcнαт.isGroup ? νℓкуяє.gmeta.subject : "";
-  νℓкуяє.participants = νℓcнαт.isGroup ? await νℓкуяє.gmeta.participants : "";
-  νℓкуяє.groupAdmins = νℓcнαт.isGroup
+  νℓкуяє.groupName = vcнaт.isGroup ? νℓкуяє.gmeta.subject : "";
+  νℓкуяє.participants = vcнaт.isGroup ? await νℓкуяє.gmeta.participants : "";
+  νℓкуяє.groupAdmins = vcнaт.isGroup
     ? await νℓкуяє.participants.filter((v) => v.admin !== null).map((v) => v.id)
     : "";
-  νℓкуяє.groupOwner = νℓcнαт.isGroup ? νℓкуяє.gmeta.owner : "";
-  νℓкуяє.isBotAdmin = νℓcнαт.isGroup
+  νℓкуяє.groupOwner = vcнaт.isGroup ? νℓкуяє.gmeta.owner : "";
+  νℓкуяє.isBotAdmin = vcнaт.isGroup
     ? νℓкуяє.groupAdmins.includes(await νℓкуяє.decodeJid(νℓкуяє.user.id))
     : false;
-  νℓкуяє.isAdmin = νℓcнαт.isGroup
-    ? νℓкуяє.groupAdmins.includes(νℓcнαт.sender)
+  νℓкуяє.isAdmin = vcнaт.isGroup
+    ? νℓкуяє.groupAdmins.includes(vcнaт.sender)
     : false;
   return νℓкуяє;
 };
