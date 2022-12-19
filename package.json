@@ -10,8 +10,10 @@
     "mongoose": "^6.8.0",
     "pg": "^8.8.0",
     "pino": "^8.8.0",
-    "qr": "^0.2.4",
-    "sequelize": "6.25.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "qrcode-reader": "^1.0.4",
+    "qrcode-terminal": "^0.12.0",
+    "sequelize": "^6.7.0",
     "sqlite3": "5.1.2"
   }
 }
