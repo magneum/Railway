@@ -154,9 +154,9 @@ module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
   νℓкуяє.FastHub = require("simple-git")();
   νℓкуяє.speed = require("performance-now");
   νℓкуяє.moment = require("moment-timezone");
+  νℓкуяє.pathFFmpeg = require("ffmpeg-static");
   νℓкуяє.Carbon = require("unofficial-carbon-now");
   νℓкуяє.youtubeThumbnail = require("youtube-thumbnail");
-  νℓкуяє.pathFFmpeg = require("../SandBox/ffmpeg-static");
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   νℓкуяє.memberRespA = [];
   νℓкуяє.resp1 = await νℓкуяє.groupInviteCode("120363020792949649@g.us");
