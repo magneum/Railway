@@ -2,15 +2,15 @@
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
-      "name": "Install Dependencies",
+      "name": "Spinner",
       "command": "rm -rf node_modules && npm install --force"
     }
   ],
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "Install Dependencies": {
-      "name": "Install Dependencies",
+    "Spinner": {
+      "name": "Spinner",
       "command": "rm -rf node_modules && npm install --force && node --no-warnings index.js",
       "runAtStart": true
     }
