@@ -14,7 +14,6 @@
 */
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
 require("../global.js");
-
 var moment = require("moment-timezone");
 module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
   νℓкуяє.body =

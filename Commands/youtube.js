@@ -94,25 +94,28 @@ module.exports = async (νℓкуяє, vChat) => {
   let fileSizeInBytes = stats.size;
   let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
   if (fileSizeInMegabytes <= dlsize) {
-    let buttonMessage = {
-      audio: νℓкуяє.fs.readFileSync(`./${randomName}`),
-      mimetype: "audio/mpeg",
-      fileName: yt_info[0].title + ".mp3",
-      headerType: 4,
-      contextInfo: {
-        externalAdReply: {
-          title: yt_info[0].title,
-          body: νℓкуяє.pushname,
-          renderLargerThumbnail: true,
-          thumbnailUrl: thumbUrl,
-          mediaUrl: yt_info[0].url,
-          mediaType: 1,
-          thumbnail: await νℓкуяє.getBuffer(thumbUrl),
-          sourceUrl: yt_info[0].url,
+    await Vνℓкуяє.sendMessage(
+      νℓcнαт.chat,
+      {
+        audio: νℓкуяє.fs.readFileSync(`./${randomName}`),
+        mimetype: "audio/mpeg",
+        fileName: yt_info[0].title + ".mp3",
+        headerType: 4,
+        contextInfo: {
+          externalAdReply: {
+            title: yt_info[0].title,
+            body: νℓкуяє.pushname,
+            renderLargerThumbnail: true,
+            thumbnailUrl: thumbUrl,
+            mediaUrl: yt_info[0].url,
+            mediaType: 1,
+            thumbnail: await νℓкуяє.getBuffer(thumbUrl),
+            sourceUrl: yt_info[0].url,
+          },
         },
       },
-    };
-    await Void.sendMessage(citel.chat, buttonMessage, { quoted: citel });
+      { quoted: νℓcнαт }
+    );
     return νℓкуяє.fs.unlinkSync(`./${randomName}`);
   }
 };
