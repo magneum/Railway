@@ -39,7 +39,6 @@ var {
 } = require("./myfunc");
 var { tmpdir } = require("os");
 var { JSDOM } = require("jsdom");
-var { yta, ytv } = require("./y2mate");
 var { Character } = require("mailist");
 var { readFile } = require("fs/promises");
 var { Chalk } = require("cfonts/lib/Chalk");
@@ -49,7 +48,6 @@ var { getDadjoke } = require("random-jokes");
 var { createWorker } = require("tesseract.js");
 var { Manga } = require("@shineiichijo/marika");
 var { AnimeWallpaper } = require("anime-wallpaper");
-var { Tube_Audio, Tube_Video } = require("./youtube");
 var { Doujin } = require("@shineiichijo/nhentai-pdf");
 var { exec, spawn, execSync } = require("child_process");
 var { TelegraPh, UploadFileUgu, webp2mp4File } = require("./uploader");

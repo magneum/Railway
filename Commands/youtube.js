@@ -60,7 +60,10 @@ module.exports = async (νℓкуяє, vChat) => {
   }
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   var finalId = νℓкуяє.getVideoId(yt_info[0].url);
-  console.log(finalId);
+  var thumbUrl =
+    `http://img.youtube.com/vi/${finalId.id}/maxresdefault.jpg` ||
+    `http://img.youtube.com/vi/${finalId.id}/hqdefault.jpg` ||
+    `http://img.youtube.com/vi/${finalId.id}/default.jpg`;
   await νℓкуяє.imgB(
     νℓкуяє,
     vChat,
@@ -70,10 +73,49 @@ module.exports = async (νℓкуяє, vChat) => {
 *⏰Duration:* ${yt_info[0].durationRaw}
 *🔗Link:* ${yt_info[0].url}
 *📜Description:* ${yt_info[0].description}`,
-    `http://img.youtube.com/vi/${finalId.id}/maxresdefault.jpg` ||
-      `http://img.youtube.com/vi/${finalId.id}/hqdefault.jpg` ||
-      `http://img.youtube.com/vi/${finalId.id}/default.jpg`
+    thumbUrl
   );
+  ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+  const yClient = require("ytdl-secktor");
+  const efs = require("fs-extra");
+  var dlsize = 100;
+  const getRandom = (ext) => {
+    return `${Math.floor(Math.random() * 10000)}${ext}`;
+  };
+  let urlYt = νℓкуяє.args.join(" ");
+  let randomName = getRandom(".mp3");
+  const stream = yClient(urlYt, {
+    filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
+  }).pipe(efs.createWriteStream(`./${randomName}`));
+  await new Promise((resolve, reject) => {
+    stream.on("error", reject);
+    stream.on("finish", resolve);
+  });
+  let stats = efs.statSync(`./${randomName}`);
+  let fileSizeInBytes = stats.size;
+  let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
+  if (fileSizeInMegabytes <= dlsize) {
+    let buttonMessage = {
+      audio: efs.readFileSync(`./${randomName}`),
+      mimetype: "audio/mpeg",
+      fileName: yt_info[0].title + ".mp3",
+      headerType: 4,
+      contextInfo: {
+        externalAdReply: {
+          title: yt_info[0].title,
+          body: νℓкуяє.pushname,
+          renderLargerThumbnail: true,
+          thumbnailUrl: thumbUrl,
+          mediaUrl: yt_info[0].url,
+          mediaType: 1,
+          thumbnail: await νℓкуяє.getBuffer(thumbUrl),
+          sourceUrl: yt_info[0].url,
+        },
+      },
+    };
+    await Void.sendMessage(citel.chat, buttonMessage, { quoted: citel });
+    return efs.unlinkSync(`./${randomName}`);
+  }
 };
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
 /*
