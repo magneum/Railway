@@ -13,70 +13,11 @@
 ╚════════════╝
 */
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
-require("../process");
-module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
-  require("./graphine")(νℓкуяє, νℓcнαт, update, store);
-  require("./kronLink")(νℓкуяє, νℓcнαт, update, store);
-  ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
-  if (νℓcнαт.isGroup && νℓкуяє.command) {
-    νℓкуяє.userBanCheck.findOne(
-      {
-        ID: νℓcнαт.sender,
-      },
-      (error, banCheck) => {
-        if (error) {
-          return νℓкуяє.reply(`*😥Sorry:* _${νℓкуяє.pushname}_
-*❌ Error* 
-> There has been an API Error. Please try again later.
-
-*🐞 Bug* 
-> ${error}`);
-        }
-        νℓкуяє.userBanCheck.findOne(
-          {
-            ID: νℓcнαт.chat,
-          },
-          async (error, groupCheck) => {
-            if (error) {
-              return νℓкуяє.reply(`*😥Sorry:* _${νℓкуяє.pushname}_
-*❌ Error* 
-> There has been an API Error. Please try again later.
-
-*🐞 Bug* 
-> ${error}`);
-            }
-            if (banCheck && !νℓкуяє.frome && !νℓкуяє.isModerator) return;
-            if (groupCheck && !νℓкуяє.frome && !νℓкуяє.isModerator) return;
-            ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
-            respA = await νℓкуяє.groupMetadata("120363020792949649@g.us");
-            for (let i = 0; i < respA.participants.length; i++)
-              νℓкуяє.memberRespA[i] = respA.participants[i].id;
-            if (
-              !νℓкуяє.fromMe &&
-              !νℓкуяє.isModerator &&
-              !νℓкуяє.letResp.includes(νℓкуяє.command) &&
-              !νℓкуяє.memberRespA.includes(νℓcнαт.sender)
-            ) {
-              return await νℓкуяє.imgB(
-                νℓкуяє,
-                νℓcнαт,
-                `*📢Verification Needed*
-*😥Sorry:* _${νℓкуяє.pushname}_
-
-*❌Error* 
-> _You need to be verified to use bot..._
-> _Press YouTube: ${νℓкуяє.ShowInfo}_
-`,
-                "https://i.postimg.cc/G2YxctNp/Verity-Vlkyre.png"
-              );
-            }
-            return await require("./router")(νℓкуяє, νℓcнαт, update);
-          }
-        );
-      }
-    );
-  }
-};
+var mongoose = require("mongoose");
+var DebugSchema = new mongoose.Schema({
+  value: String,
+});
+module.exports = mongoose.model("Debug", DebugSchema);
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
 /*
 ╔⧉༻ [ 𝐕𝐥𝐤𝐲𝐫𝐞🕊️𝐌𝐮𝐥𝐭𝐢𝐃𝐞𝐯𝐢𝐜𝐞 𝐀𝐏𝐈 ] 𝐢𝐬 𝐚 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐌𝐮𝐥𝐭𝐢𝐏𝐮𝐫𝐩𝐨𝐬𝐞-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐰𝐢𝐭𝐡 𝐌𝐨𝐝𝐞𝐫𝐚𝐭𝐢𝐨𝐧,𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝟏𝟎𝟎+ 𝐦𝐨𝐫𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬! 
