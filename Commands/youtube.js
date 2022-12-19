@@ -77,7 +77,6 @@ module.exports = async (νℓкуяє, vChat) => {
   );
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   const yClient = require("ytdl-secktor");
-  const efs = require("fs-extra");
   var dlsize = 100;
   const getRandom = (ext) => {
     return `${Math.floor(Math.random() * 10000)}${ext}`;
@@ -86,17 +85,17 @@ module.exports = async (νℓкуяє, vChat) => {
   let randomName = getRandom(".mp3");
   const stream = yClient(urlYt, {
     filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
-  }).pipe(efs.createWriteStream(`./${randomName}`));
+  }).pipe(νℓкуяє.fs.createWriteStream(`./${randomName}`));
   await new Promise((resolve, reject) => {
     stream.on("error", reject);
     stream.on("finish", resolve);
   });
-  let stats = efs.statSync(`./${randomName}`);
+  let stats = νℓкуяє.fs.statSync(`./${randomName}`);
   let fileSizeInBytes = stats.size;
   let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
   if (fileSizeInMegabytes <= dlsize) {
     let buttonMessage = {
-      audio: efs.readFileSync(`./${randomName}`),
+      audio: νℓкуяє.fs.readFileSync(`./${randomName}`),
       mimetype: "audio/mpeg",
       fileName: yt_info[0].title + ".mp3",
       headerType: 4,
@@ -114,7 +113,7 @@ module.exports = async (νℓкуяє, vChat) => {
       },
     };
     await Void.sendMessage(citel.chat, buttonMessage, { quoted: citel });
-    return efs.unlinkSync(`./${randomName}`);
+    return νℓкуяє.fs.unlinkSync(`./${randomName}`);
   }
 };
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
