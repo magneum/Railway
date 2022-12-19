@@ -38,7 +38,7 @@ exports.unixTimestampSeconds = unixTimestampSeconds;
 
 exports.generateMessageTag = (epoch) => {
   let tag = (0, exports.unixTimestampSeconds)().toString();
-  if (epoch) tag += ".--" + epoch; 
+  if (epoch) tag += ".--" + epoch;
   return tag;
 };
 
