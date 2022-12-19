@@ -43,7 +43,7 @@ module.exports = async (νℓкуяє, vChat) => {
   let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
   if (fileSizeInMegabytes <= 100) {
     let yts = require("secktor-pack");
-    let search = await yts(text);
+    let search = await yts(urlYt);
     let buttonMessage = {
       document: νℓкуяє.fs.readFileSync(`./${randomName}`),
       mimetype: "audio/mpeg",
@@ -55,10 +55,10 @@ module.exports = async (νℓкуяє, vChat) => {
           body: νℓкуяє.pushname,
           renderLargerThumbnail: true,
           thumbnailUrl: search.all[0].thumbnail,
-          mediaUrl: text,
+          mediaUrl: urlYt,
           mediaType: 1,
           thumbnail: await getBuffer(search.all[0].thumbnail),
-          sourceUrl: text,
+          sourceUrl: urlYt,
         },
       },
     };
