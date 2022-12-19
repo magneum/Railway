@@ -17,7 +17,6 @@ require("dotenv");
 var fs = require("fs");
 var path = require("path");
 var chalk = require("chalk");
-var monGoose = require("mongoose");
 var sequelize = require("sequelize");
 if (fs.existsSync(".env")) {
   console.log("Found dotenv!");
