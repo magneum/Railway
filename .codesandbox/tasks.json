@@ -3,15 +3,15 @@
   "setupTasks": [
     {
       "name": "Install Dependencies",
-      "command": "yarn install"
+      "command": "npm install --force"
     }
   ],
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "yarn && node --no-warnings index.js": {
-      "name": "yarn && node --no-warnings index.js",
-      "command": "yarn && node --no-warnings index.js",
+    "Install Dependencies": {
+      "name": "Install Dependencies",
+      "command": "npm install --force && node --no-warnings index.js",
       "runAtStart": true
     }
   }
