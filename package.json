@@ -1,0 +1,11 @@
+{
+    "name": "vlkyre",
+    "dependencies": {
+        "@adiwajshing/baileys": "^4.4.0",
+        "@adiwajshing/keyed-db": "0.2.4",
+        "dotenv": "^16.0.3",
+        "mongoose": "^6.8.0",
+        "sequelize": "6.25.3",
+        "sqlite3": "5.1.2"
+    }
+}
