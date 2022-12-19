@@ -149,7 +149,6 @@ module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
   νℓкуяє.fetch = require("node-fetch");
   νℓкуяє.google = require("google-it");
   νℓкуяє.Spinnies = require("spinnies");
-  νℓкуяє.canvacord = require("canvacord");
   νℓкуяє.Anime = require("anime-actions");
   νℓкуяє.Tinyurl = require("tinyurl-api");
   νℓкуяє.FastHub = require("simple-git")();
