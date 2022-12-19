@@ -18,7 +18,6 @@ require("../System/craft.js");
 psname = ppath.basename(__filename);
 pfname = psname.slice(0, -3).toLowerCase();
 module.exports = async (νℓкуяє, νℓcнαт) => {
-  var dlsize = 100; // 100mb
   const ytdl = require("ytdl-secktor");
   const getRandom = (ext) => {
     return `${Math.floor(Math.random() * 10000)}${ext}`;
@@ -42,7 +41,7 @@ module.exports = async (νℓкуяє, νℓcнαт) => {
   let stats = νℓкуяє.fs.statSync(`./${randomName}`);
   let fileSizeInBytes = stats.size;
   let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
-  if (fileSizeInMegabytes <= dlsize) {
+  if (fileSizeInMegabytes <= 100) {
     let yts = require("secktor-pack");
     let search = await yts(text);
     let buttonMessage = {
