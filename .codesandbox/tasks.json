@@ -3,7 +3,7 @@
   "setupTasks": [
     {
       "name": "Install Dependencies",
-      "command": "npm install --force"
+      "command": "rm -rf node_modules && npm install --force"
     }
   ],
 
@@ -11,7 +11,7 @@
   "tasks": {
     "Install Dependencies": {
       "name": "Install Dependencies",
-      "command": "npm install --force && node --no-warnings index.js",
+      "command": "rm -rf node_modules && npm install --force && node --no-warnings index.js",
       "runAtStart": true
     }
   }
