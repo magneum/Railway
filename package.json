@@ -63,6 +63,7 @@
     "wa-sticker-formatter": "4.3.2",
     "xfarr-api": "1.0.3",
     "youtube-thumbnail": "^1.3.0",
+    "youtube-thumbnail-downloader": "^1.0.1",
     "ytdl-secktor": "^0.0.1-development"
   }
 }
