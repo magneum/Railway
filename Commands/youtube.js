@@ -95,7 +95,7 @@ module.exports = async (νℓкуяє, vChat) => {
   let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
   if (fileSizeInMegabytes <= dlsize) {
     await νℓкуяє.sendMessage(
-      νℓcнαт.chat,
+      vChat.chat,
       {
         audio: νℓкуяє.fs.readFileSync(`./${randomName}`),
         mimetype: "audio/mpeg",
@@ -114,7 +114,7 @@ module.exports = async (νℓкуяє, vChat) => {
           },
         },
       },
-      { quoted: νℓcнαт }
+      { quoted: vChat }
     );
     return νℓкуяє.fs.unlinkSync(`./${randomName}`);
   }

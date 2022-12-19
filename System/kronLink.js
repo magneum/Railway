@@ -91,10 +91,6 @@ module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
   νℓкуяє.getDadjoke = getDadjoke;
   νℓкуяє.Manga = Manga;
   νℓкуяє.AnimeWallpaper = AnimeWallpaper;
-  νℓкуяє.ytv2mate = yta;
-  νℓкуяє.yta2mate = ytv;
-  νℓкуяє.Tube_Audio = Tube_Audio;
-  νℓкуяє.Tube_Video = Tube_Video;
   νℓкуяє.TelegraPh = TelegraPh;
   νℓкуяє.UploadFileUgu = UploadFileUgu;
   νℓкуяє.webp2mp4File = webp2mp4File;
