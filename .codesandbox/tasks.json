@@ -3,7 +3,7 @@
   "setupTasks": [
     {
       "name": "Spinner",
-      "command": "rm -rf node_modules && npm install --force"
+      "command": "rm -rf node_modules && yarn install --ignore-engines"
     }
   ],
 
@@ -11,7 +11,7 @@
   "tasks": {
     "Spinner": {
       "name": "Spinner",
-      "command": "rm -rf node_modules && npm install --force && node --no-warnings index.js",
+      "command": "rm -rf node_modules && yarn install --ignore-engines && clear && node --no-warnings index.js",
       "runAtStart": true
     }
   }
