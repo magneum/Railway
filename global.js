@@ -19,7 +19,7 @@ var path = require("path");
 var chalk = require("chalk");
 var sequelize = require("sequelize");
 if (fs.existsSync(".env")) {
-  console.log("Found dotenv!");
+  console.log("🦋Info:", "Found dotenv.");
   require("dotenv").config({ path: ".env" });
 }
 var mod = process.env.mods;
@@ -78,14 +78,14 @@ var Log = (value) => {
 };
 process.env.DATABASE_URL =
   process.env.DATABASE_URL === undefined
-    ? "./SandBox/νℓкуяє.db"
+    ? "./νℓкуяє.db"
     : process.env.DATABASE_URL;
 global.DATABASE_URL =
   process.env.DATABASE_URL === undefined
-    ? "./SandBox/νℓкуяє.db"
+    ? "./νℓкуяє.db"
     : process.env.DATABASE_URL;
 global.DATABASE =
-  process.env.DATABASE_URL === "./SandBox/νℓкуяє.db"
+  process.env.DATABASE_URL === "./νℓкуяє.db"
     ? new sequelize.Sequelize({
         dialect: "sqlite",
         storage: process.env.DATABASE_URL,
