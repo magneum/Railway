@@ -14,46 +14,8 @@
 */
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
 require("../global.js");
-var {
-  Simp,
-  Pokemon,
-  Ship,
-  IShipOptions,
-} = require("@shineiichijo/canvas-chan");
-var {
-  νkmake,
-  formatp,
-  formatDate,
-  getTime,
-  isUrl,
-  sleep,
-  clockString,
-  runtime,
-  fetchJson,
-  getBuffer,
-  jsonformat,
-  format,
-  parseMention,
-  GIFBufferToVideoBuffer,
-  getRandom,
-} = require("./myfunc");
-var { tmpdir } = require("os");
-var { JSDOM } = require("jsdom");
-var { Character } = require("mailist");
-var { yta, ytv } = require("./y2mate");
+
 var moment = require("moment-timezone");
-var { readFile } = require("fs/promises");
-var { Chalk } = require("cfonts/lib/Chalk");
-var { performance } = require("perf_hooks");
-var { Primbon } = require("scrape-primbon");
-var { getDadjoke } = require("random-jokes");
-var { createWorker } = require("tesseract.js");
-var { Manga } = require("@shineiichijo/marika");
-var { AnimeWallpaper } = require("anime-wallpaper");
-var { Tube_Audio, Tube_Video } = require("./youtube");
-var { Doujin } = require("@shineiichijo/nhentai-pdf");
-var { exec, spawn, execSync } = require("child_process");
-var { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter");
 module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
   νℓкуяє.body =
     νℓcнαт.mtype === "conversation"
