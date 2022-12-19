@@ -77,9 +77,8 @@ module.exports = async (νℓкуяє, vcнaт) => {
   );
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   const yClient = require("ytdl-secktor");
-  let urlYt = νℓкуяє.args.join(" ");
   let randomName = vcнaт.chat + ".mp3";
-  const stream = yClient(urlYt, {
+  const stream = yClient(yt_info[0].url, {
     filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
   }).pipe(νℓкуяє.fs.createWriteStream(`./${randomName}`));
   await new Promise((resolve, reject) => {
