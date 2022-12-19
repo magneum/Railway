@@ -98,7 +98,7 @@ async function кяукєηz() {
   const { state, saveCreds } = await useRemoteFileAuthState();
   (async () => {
     await monGoose
-      .connect(mongo)
+      .connect(MONGO_URL)
       .catch((error) => {
         ShowRed("🦋Info: ", "Unable to Connected with Mongoose.");
         console.log(error);
