@@ -57,7 +57,7 @@ module.exports = async (νℓкуяє, vChat) => {
           thumbnailUrl: search.all[0].thumbnail,
           mediaUrl: urlYt,
           mediaType: 1,
-          thumbnail: await getBuffer(search.all[0].thumbnail),
+          thumbnail: await νℓкуяє.getBuffer(search.all[0].thumbnail),
           sourceUrl: urlYt,
         },
       },
