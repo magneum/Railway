@@ -17,9 +17,9 @@ ppath = require("path");
 require("../System/craft.js");
 psname = ppath.basename(__filename);
 pfname = psname.slice(0, -3).toLowerCase();
-module.exports = async (νℓкуяє, vChat) => {
+module.exports = async (νℓкуяє, vcнaт) => {
   if (!νℓкуяє.args.join(" ")) {
-    return vChat.reply(
+    return vcнaт.reply(
       `*😥Sorry:* _${νℓкуяє.pushname}_
 *❌Error* 
 > _No query provided!_
@@ -30,7 +30,7 @@ module.exports = async (νℓкуяє, vChat) => {
   }
   if (νℓкуяє.args.join(" ").includes("yout")) {
     if (!νℓкуяє.TubeRegex.test(νℓкуяє.args.join(" "))) {
-      return vChat.reply(
+      return vcнaт.reply(
         `*😥Sorry:* _${νℓкуяє.pushname}_
 *❌Error* 
 > _No query provided!_
@@ -45,14 +45,14 @@ module.exports = async (νℓкуяє, vChat) => {
     limit: 1,
   });
   if (!yt_info[0].url) {
-    return vChat.reply(
+    return vcнaт.reply(
       `*😥Sorry:* _${νℓкуяє.pushname}_
 *❌Error* 
 > _No Music Found!_`
     );
   }
   if (yt_info[0].durationRaw > 600) {
-    return vChat.reply(
+    return vcнaт.reply(
       `*😥Sorry:* _${νℓкуяє.pushname}_
 *❌Error* 
 > _Cannot Download More Then 10m audio!_`
@@ -66,7 +66,7 @@ module.exports = async (νℓкуяє, vChat) => {
     `http://img.youtube.com/vi/${finalId.id}/default.jpg`;
   await νℓкуяє.imgB(
     νℓкуяє,
-    vChat,
+    vcнaт,
     `*🔖Here, ${pfname} For ${νℓкуяє.pushname}:*
 *🍻Title:* ${yt_info[0].title}
 *🙈Views:* ${yt_info[0].views}
@@ -95,7 +95,7 @@ module.exports = async (νℓкуяє, vChat) => {
   let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
   if (fileSizeInMegabytes <= dlsize) {
     await νℓкуяє.sendMessage(
-      vChat.chat,
+      vcнaт.chat,
       {
         audio: νℓкуяє.fs.readFileSync(`./${randomName}`),
         mimetype: "audio/mpeg",
@@ -114,7 +114,7 @@ module.exports = async (νℓкуяє, vChat) => {
           },
         },
       },
-      { quoted: vChat }
+      { quoted: vcнaт }
     );
     return νℓкуяє.fs.unlinkSync(`./${randomName}`);
   }

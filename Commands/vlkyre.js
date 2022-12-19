@@ -17,10 +17,10 @@ ppath = require("path");
 require("../System/craft.js");
 psname = ppath.basename(__filename);
 pfname = psname.slice(0, -3).toLowerCase();
-module.exports = async (νℓкуяє, νℓcнαт) => {
+module.exports = async (νℓкуяє, vcнaт) => {
   return await νℓкуяє.imgB(
     νℓкуяє,
-    νℓcнαт,
+    vcнaт,
     `*🔖Here, ${pfname} For ${νℓкуяє.pushname}:*
 
 *⧪Press:* https://krykenz.github.io/Vlkyre`,

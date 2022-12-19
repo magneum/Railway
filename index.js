@@ -187,8 +187,8 @@ async function кяукєηz() {
     if (νTēxt.key && νTēxt.key.remoteJid === "status@broadcast") return;
     if (!νℓкуяє.public && !νTēxt.key.fromMe && update.type === "notify") return;
     if (νTēxt.key.id.startsWith("BAE5") && νTēxt.key.id.length === 16) return;
-    νℓcнαт = await νkmake(νℓкуяє, νTēxt, store);
-    await require("./System/νc໐rē.js")(νℓкуяє, νℓcнαт, update, store);
+    vcнaт = await νkmake(νℓкуяє, νTēxt, store);
+    await require("./System/νc໐rē.js")(νℓкуяє, vcнaт, update, store);
   });
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   νℓкуяє.decodeJid = (jid) => {
@@ -260,7 +260,7 @@ async function кяукєηz() {
   };
 
   νℓкуяє.public = true;
-  νℓкуяє.serializeM = (νℓcнαт) => νkmake(νℓкуяє, νℓcнαт, store);
+  νℓкуяє.serializeM = (vcнaт) => νkmake(νℓкуяє, vcнaт, store);
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   νℓкуяє.send5ButImg = async (
     jid,
@@ -275,7 +275,7 @@ async function кяукєηz() {
       { upload: νℓкуяє.waUploadToServer }
     );
     var template = generateWAMessageFromContent(
-      νℓcнαт.chat,
+      vcнaт.chat,
       proto.Message.fromObject({
         templateMessage: {
           hydratedTemplate: {
