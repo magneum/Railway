@@ -60,10 +60,7 @@ module.exports = async (νℓкуяє, vcнaт) => {
   }
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   var finalId = νℓкуяє.getVideoId(yt_info[0].url);
-  var thumbUrl =
-    `http://img.youtube.com/vi/${finalId.id}/maxresdefault.jpg` ||
-    `http://img.youtube.com/vi/${finalId.id}/hqdefault.jpg` ||
-    `http://img.youtube.com/vi/${finalId.id}/default.jpg`;
+  var thumbUrl = `http://img.youtube.com/vi/${finalId.id}/maxresdefault.jpg`;
   await νℓкуяє.imgB(
     νℓкуяє,
     vcнaт,
@@ -77,7 +74,6 @@ module.exports = async (νℓкуяє, vcнaт) => {
   );
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   const yClient = require("ytdl-secktor");
-  var dlsize = 100;
   const getRandom = (ext) => {
     return `${Math.floor(Math.random() * 10000)}${ext}`;
   };
@@ -90,34 +86,29 @@ module.exports = async (νℓкуяє, vcнaт) => {
     stream.on("error", reject);
     stream.on("finish", resolve);
   });
-  let stats = νℓкуяє.fs.statSync(`./${randomName}`);
-  let fileSizeInBytes = stats.size;
-  let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
-  if (fileSizeInMegabytes <= dlsize) {
-    await νℓкуяє.sendMessage(
-      vcнaт.chat,
-      {
-        audio: νℓкуяє.fs.readFileSync(`./${randomName}`),
-        mimetype: "audio/mpeg",
-        fileName: yt_info[0].title + ".mp3",
-        headerType: 4,
-        contextInfo: {
-          externalAdReply: {
-            title: yt_info[0].title,
-            body: νℓкуяє.pushname,
-            renderLargerThumbnail: true,
-            thumbnailUrl: thumbUrl,
-            mediaUrl: yt_info[0].url,
-            mediaType: 1,
-            thumbnail: await νℓкуяє.getBuffer(thumbUrl),
-            sourceUrl: yt_info[0].url,
-          },
+  await νℓкуяє.sendMessage(
+    vcнaт.chat,
+    {
+      audio: νℓкуяє.fs.readFileSync(`./${randomName}`),
+      mimetype: "audio/mpeg",
+      fileName: yt_info[0].title + ".mp3",
+      headerType: 4,
+      contextInfo: {
+        externalAdReply: {
+          title: yt_info[0].title,
+          body: νℓкуяє.pushname,
+          renderLargerThumbnail: true,
+          thumbnailUrl: thumbUrl,
+          mediaUrl: yt_info[0].url,
+          mediaType: 1,
+          thumbnail: await νℓкуяє.getBuffer(thumbUrl),
+          sourceUrl: yt_info[0].url,
         },
       },
-      { quoted: vcнaт }
-    );
-    return νℓкуяє.fs.unlinkSync(`./${randomName}`);
-  }
+    },
+    { quoted: vcнaт }
+  );
+  return νℓкуяє.fs.unlinkSync(`./${randomName}`);
 };
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
 /*
