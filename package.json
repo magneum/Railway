@@ -10,6 +10,7 @@
     "fluent-ffmpeg": "^2.1.2",
     "human-readable": "^0.2.1",
     "jimp": "0.16.1",
+    "cfonts": "2.10.0",
     "awesome-phonenumber": "2.64.0",
     "jsdom": "16.4.0",
     "path": "0.12.7",
