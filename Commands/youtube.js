@@ -17,14 +17,14 @@ ppath = require("path");
 require("../System/craft.js");
 psname = ppath.basename(__filename);
 pfname = psname.slice(0, -3).toLowerCase();
-module.exports = async (νℓкуяє, νℓcнαт) => {
+module.exports = async (νℓкуяє, vChat) => {
   const ytdl = require("ytdl-secktor");
   const getRandom = (ext) => {
     return `${Math.floor(Math.random() * 10000)}${ext}`;
   };
   let urlYt = νℓкуяє.args.join(" ");
   if (!urlYt.startsWith("http")) {
-    νℓcнαт.reply(`❌ Give youtube link!`);
+    vChat.reply(`❌ Give youtube link!`);
     return;
   }
   let infoYt = await ytdl.getInfo(urlYt);
@@ -52,7 +52,7 @@ module.exports = async (νℓкуяє, νℓcнαт) => {
       contextInfo: {
         externalAdReply: {
           title: titleYt,
-          body: citel.pushName,
+          body: νℓкуяє.pushname,
           renderLargerThumbnail: true,
           thumbnailUrl: search.all[0].thumbnail,
           mediaUrl: text,
@@ -62,10 +62,11 @@ module.exports = async (νℓкуяє, νℓcнαт) => {
         },
       },
     };
-    await νℓкуяє.sendMessage(νℓcнαт.chat, buttonMessage, { quoted: νℓcнαт });
+    await νℓкуяє.sendMessage(vChat.chat, buttonMessage, { quoted: vChat });
     return fs.unlinkSync(`./${randomName}`);
   } else {
-    citel.reply(`❌ File size bigger than 100mb.`);
+    vChat.reply("❌ File size bigger than 100mb.");
+    return;
   }
 };
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
