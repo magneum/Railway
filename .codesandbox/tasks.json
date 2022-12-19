@@ -3,15 +3,20 @@
   "setupTasks": [
     {
       "name": "Spinner",
-      "command": "rm -rf node_modules && yarn install --ignore-engines"
+      "command": "rm -rf node_modules && yarn install --ignore-engines && clear"
     }
   ],
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "Spinner": {
+    "Install Modules": {
       "name": "Spinner",
-      "command": "rm -rf node_modules && yarn install --ignore-engines && clear && node --no-warnings index.js",
+      "command": "rm -rf node_modules && yarn install --ignore-engines && clear",
+      "runAtStart": true
+    },
+    "Run Script": {
+      "name": "Spinner",
+      "command": "clear && node --no-warnings index.js",
       "runAtStart": true
     }
   }
