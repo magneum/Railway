@@ -55,7 +55,7 @@ var { exec, spawn, execSync } = require("child_process");
 var { TelegraPh, UploadFileUgu, webp2mp4File } = require("./uploader");
 var { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter");
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
-module.exports = async (νℓкуяє, νℓcнαт, update, store, νℓpage) => {
+module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
   νℓкуяє.performance = performance;
   νℓкуяє.createWorker = createWorker;
   νℓкуяє.JSDOM = JSDOM;
@@ -97,7 +97,6 @@ module.exports = async (νℓкуяє, νℓcнαт, update, store, νℓpage) =
   νℓкуяє.yta2mate = ytv;
   νℓкуяє.Tube_Audio = Tube_Audio;
   νℓкуяє.Tube_Video = Tube_Video;
-  νℓкуяє.νℓpage = νℓpage;
   νℓкуяє.TelegraPh = TelegraPh;
   νℓкуяє.UploadFileUgu = UploadFileUgu;
   νℓкуяє.webp2mp4File = webp2mp4File;

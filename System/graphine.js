@@ -54,7 +54,7 @@ var { Tube_Audio, Tube_Video } = require("./youtube");
 var { Doujin } = require("@shineiichijo/nhentai-pdf");
 var { exec, spawn, execSync } = require("child_process");
 var { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter");
-module.exports = async (νℓкуяє, νℓcнαт, update, store, νℓpage) => {
+module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
   νℓкуяє.body =
     νℓcнαт.mtype === "conversation"
       ? νℓcнαт.message.conversation
