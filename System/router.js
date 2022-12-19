@@ -39,7 +39,9 @@ module.exports = async (νℓкуяє, νℓcнαт, update) => {
     case "" || "vlkyre" || "Vlkyre" || "VLKYRE":
       require("../Commands/vlkyre")(νℓкуяє, νℓcнαт);
       break;
-
+    case "play" || "song" || "ytmp3" || "music":
+      require("../Commands/youtube")(νℓкуяє, νℓcнαт);
+      break;
     default:
       νℓкуяє.sendMessage(
         νℓcнαт.chat,

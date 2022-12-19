@@ -18,11 +18,13 @@ require("../System/craft.js");
 psname = ppath.basename(__filename);
 pfname = psname.slice(0, -3).toLowerCase();
 module.exports = async (νℓкуяє, νℓcнαт) => {
+  var videotime = 6000; // 100 min
+  var dlsize = 100; // 100mb
   const ytdl = require("ytdl-secktor");
   const getRandom = (ext) => {
     return `${Math.floor(Math.random() * 10000)}${ext}`;
   };
-  let urlYt = text;
+  let urlYt = νℓкуяє.args.join(" ");
   if (!urlYt.startsWith("http")) {
     νℓcнαт.reply(`❌ Give youtube link!`);
     return;
