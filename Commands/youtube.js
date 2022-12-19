@@ -94,7 +94,7 @@ module.exports = async (νℓкуяє, vChat) => {
   let fileSizeInBytes = stats.size;
   let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
   if (fileSizeInMegabytes <= dlsize) {
-    await Vνℓкуяє.sendMessage(
+    await νℓкуяє.sendMessage(
       νℓcнαт.chat,
       {
         audio: νℓкуяє.fs.readFileSync(`./${randomName}`),
