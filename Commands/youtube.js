@@ -18,30 +18,32 @@ require("../System/craft.js");
 psname = ppath.basename(__filename);
 pfname = psname.slice(0, -3).toLowerCase();
 module.exports = async (νℓкуяє, vChat) => {
-  let urlYt = νℓкуяє.args.join(" ");
-  if (!urlYt) {
+  if (!νℓкуяє.args.join(" ")) {
     return vChat.reply(
-      `*❌Error* 
-> __${νℓкуяє.pushname}, No query provided!_
+      `*😥Sorry:* _${νℓкуяє.pushname}_
+*❌Error* 
+> _No query provided!_
 
 *⚡Usage*   
 > _${νℓкуяє.prefix}${pfname} song/link_`
     );
-  } else if (urlYt.includes("yout")) {
-    if (!νℓкуяє.TubeRegex.test(urlYt)) {
+  }
+  if (νℓкуяє.args.join(" ").includes("yout")) {
+    if (!νℓкуяє.TubeRegex.test(νℓкуяє.args.join(" "))) {
       return vChat.reply(
-        `*❌Error* 
-> __${νℓкуяє.pushname}, No query provided!_
+        `*😥Sorry:* _${νℓкуяє.pushname}_
+*❌Error* 
+> _No query provided!_
 
 *⚡Usage* 
 > _${νℓкуяє.prefix}${pfname} song/link_`
       );
     }
   }
-  let yt_info = await νℓкуяє.playdl.search(urlYt, {
+  ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+  let yt_info = await νℓкуяє.playdl.search(νℓкуяє.args.join(" "), {
     limit: 1,
   });
-  console.log(yt_info);
   if (!yt_info[0].url) {
     return vChat.reply(
       `*😥Sorry:* _${νℓкуяє.pushname}_
@@ -53,50 +55,23 @@ module.exports = async (νℓкуяє, vChat) => {
     return vChat.reply(
       `*😥Sorry:* _${νℓкуяє.pushname}_
 *❌Error* 
-> _Cannot Download >10min audio!_`
+> _Cannot Download More Then 10m audio!_`
     );
   }
-  var { DLoader, thumb } = await νℓкуяє.Tube_Audio(yt_info[0].url, "en136");
-  var directShorten = await νℓкуяє.Tinyurl(DLoader);
+  ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+  var youtubeThumbnail = require("youtube-thumbnail");
+  var thumbnail = youtubeThumbnail(yt_info[0].url);
   await νℓкуяє.imgB(
     νℓкуяє,
     vChat,
     `*🔖Here, ${pfname} For ${νℓкуяє.pushname}:*
-
 *🍻Title:* ${yt_info[0].title}
 *🙈Views:* ${yt_info[0].views}
 *⏰Duration:* ${yt_info[0].durationRaw}
-*🔗Link:* ${directShorten}
+*🔗Link:* ${yt_info[0].url}
 *📜Description:* ${yt_info[0].description}`,
-    thumb
+    thumbnail.high.url
   );
-  let randomName = getRandom(".mp3");
-  const stream = ytdl(urlYt, {
-    filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
-  }).pipe(fs.createWriteStream(`./${randomName}`));
-
-  return;
-  let buttonMessage = {
-    document: DLoader,
-    mimetype: "audio/mpeg",
-    fileName: yt_info[0].title + ".mp3",
-    headerType: 4,
-    contextInfo: {
-      externalAdReply: {
-        title: yt_info[0].title,
-        body: νℓкуяє.pushname + "\nVlkyre™ By KryKenz",
-        renderLargerThumbnail: true,
-        thumbnailUrl: thumb,
-        mediaUrl: urlYt,
-        mediaType: 1,
-        thumbnail: await νℓкуяє.getBuffer(thumb),
-        sourceUrl: urlYt,
-      },
-    },
-  };
-  return await νℓкуяє.sendMessage(vChat.chat, buttonMessage, {
-    quoted: vChat,
-  });
 };
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
 /*
