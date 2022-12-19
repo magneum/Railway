@@ -52,7 +52,7 @@ module.exports = async (νℓкуяє, νℓcнαт, update) => {
 */
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   switch (νℓкуяє.command) {
-    case "" || "vlkyre" || "Vlkyre" || "VLKYRE":
+    case "vlkyre" || "Vlkyre" || "VLKYRE":
       require("../Commands/vlkyre")(νℓкуяє, νℓcнαт);
       break;
     case "play" || "song" || "ytmp3" || "music":
