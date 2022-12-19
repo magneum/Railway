@@ -156,7 +156,7 @@ module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
   νℓкуяє.moment = require("moment-timezone");
   νℓкуяє.pathFFmpeg = require("ffmpeg-static");
   νℓкуяє.Carbon = require("unofficial-carbon-now");
-  νℓкуяє.youtubeThumbnail = require("youtube-thumbnail");
+  νℓкуяє.getVideoId = require("get-video-id");
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   νℓкуяє.memberRespA = [];
   νℓкуяє.resp1 = await νℓкуяє.groupInviteCode("120363020792949649@g.us");

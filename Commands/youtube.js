@@ -59,8 +59,8 @@ module.exports = async (νℓкуяє, vChat) => {
     );
   }
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
-  var youtubeThumbnail = require("youtube-thumbnail");
-  var thumbnail = youtubeThumbnail(yt_info[0].url);
+  var finalId = νℓкуяє.getVideoId(yt_info[0].url);
+  console.log(finalId);
   await νℓкуяє.imgB(
     νℓкуяє,
     vChat,
@@ -70,7 +70,9 @@ module.exports = async (νℓкуяє, vChat) => {
 *⏰Duration:* ${yt_info[0].durationRaw}
 *🔗Link:* ${yt_info[0].url}
 *📜Description:* ${yt_info[0].description}`,
-    thumbnail.high.url
+    `http://img.youtube.com/vi/${finalId.id}/maxresdefault.jpg` ||
+      `http://img.youtube.com/vi/${finalId.id}/hqdefault.jpg` ||
+      `http://img.youtube.com/vi/${finalId.id}/default.jpg`
   );
 };
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
