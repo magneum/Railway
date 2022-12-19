@@ -60,7 +60,10 @@ module.exports = async (νℓкуяє, vcнaт) => {
   }
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   var finalId = νℓкуяє.getVideoId(yt_info[0].url);
-  var thumbUrl = `http://img.youtube.com/vi/${finalId.id}/maxresdefault.jpg`;
+  var thumbUrl =
+    `http://img.youtube.com/vi/${finalId.id}/maxresdefault.jpg` ||
+    `http://img.youtube.com/vi/${finalId.id}/hqdefault.jpg` ||
+    `http://img.youtube.com/vi/${finalId.id}/default.jpg`;
   await νℓкуяє.imgB(
     νℓкуяє,
     vcнaт,
@@ -74,11 +77,8 @@ module.exports = async (νℓкуяє, vcнaт) => {
   );
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   const yClient = require("ytdl-secktor");
-  const getRandom = (ext) => {
-    return `${Math.floor(Math.random() * 10000)}${ext}`;
-  };
   let urlYt = νℓкуяє.args.join(" ");
-  let randomName = getRandom(".mp3");
+  let randomName = vcнaт.chat + ".mp3";
   const stream = yClient(urlYt, {
     filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
   }).pipe(νℓкуяє.fs.createWriteStream(`./${randomName}`));
