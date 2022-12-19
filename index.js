@@ -39,6 +39,7 @@ var express = require("express");
 var monGoose = require("mongoose");
 var { Boom } = require("@hapi/boom");
 var { useRemoteFileAuthState } = require("./Authenticator/Database");
+var { νkmake, fetchJson, getBuffer, getSizeMedia } = require("./System/myfunc");
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
 function ShowRed(Topic, Text) {
   var TShow = chalk.hex("#ff6347").bold(Topic);

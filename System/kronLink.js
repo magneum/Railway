@@ -138,6 +138,8 @@ module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
   νℓкуяє.hxz = require("hxz-api");
   νℓкуяє.axios = require("axios");
   νℓкуяє.chalk = require("chalk");
+  νℓкуяє.playdl = require("play-dl");
+  νℓкуяє.FFmpeg = require("fluent-ffmpeg");
   νℓкуяє.request = require("request");
   νℓкуяє.xfar = require("xfarr-api");
   νℓкуяє.cron = require("node-cron");
@@ -155,18 +157,10 @@ module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
   νℓкуяє.moment = require("moment-timezone");
   νℓкуяє.Carbon = require("unofficial-carbon-now");
   νℓкуяє.youtubeThumbnail = require("youtube-thumbnail");
-  νℓкуяє.playdl = require("play-dl");
-  νℓкуяє.FFmpeg = require("fluent-ffmpeg");
   νℓкуяє.pathFFmpeg = require("../SandBox/ffmpeg-static");
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   νℓкуяє.memberRespA = [];
-  // νℓкуяє.memberRespB = [];
-  // νℓкуяє.memberRespC = [];
-  // νℓкуяє.memberRespD = [];
   νℓкуяє.resp1 = await νℓкуяє.groupInviteCode("120363020792949649@g.us");
-  // νℓкуяє.resp2 = await νℓкуяє.groupInviteCode("120363039223842047@g.us");
-  // νℓкуяє.resp3 = await νℓкуяє.groupInviteCode("120363024871653603@g.us");
-  // νℓкуяє.resp4 = await νℓкуяє.groupInviteCode("120363042762307739@g.us");
   νℓкуяє.letResp = [
     "h",
     "m",
@@ -175,8 +169,8 @@ module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
     "menu",
     "command",
     "commands",
-    "🛰️Vlkyre",
-    "✈️Commands",
+    "Vlkyre",
+    "Commands",
   ];
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   function ShowGreen(Topic, Text) {
@@ -235,6 +229,22 @@ module.exports = async (νℓкуяє, νℓcнαт, update, store) => {
   νℓкуяє.author = author;
   νℓкуяє.prefix = prefix;
   νℓкуяє.mods = mods;
+  ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+  νℓкуяє.gmeta = νℓcнαт.isGroup
+    ? await νℓкуяє.groupMetadata(νℓcнαт.chat).catch((e) => {})
+    : "";
+  νℓкуяє.groupName = νℓcнαт.isGroup ? νℓкуяє.gmeta.subject : "";
+  νℓкуяє.participants = νℓcнαт.isGroup ? await νℓкуяє.gmeta.participants : "";
+  νℓкуяє.groupAdmins = νℓcнαт.isGroup
+    ? await νℓкуяє.participants.filter((v) => v.admin !== null).map((v) => v.id)
+    : "";
+  νℓкуяє.groupOwner = νℓcнαт.isGroup ? νℓкуяє.gmeta.owner : "";
+  νℓкуяє.isBotAdmin = νℓcнαт.isGroup
+    ? νℓкуяє.groupAdmins.includes(await νℓкуяє.decodeJid(νℓкуяє.user.id))
+    : false;
+  νℓкуяє.isAdmin = νℓcнαт.isGroup
+    ? νℓкуяє.groupAdmins.includes(νℓcнαт.sender)
+    : false;
   return νℓкуяє;
 };
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
