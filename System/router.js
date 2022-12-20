@@ -1,4 +1,4 @@
-("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє куяєв ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє _vaт ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
 /*
 ╔⧉༻ [ 𝐕𝐥𝐤𝐲𝐫𝐞🕊️𝐌𝐮𝐥𝐭𝐢𝐃𝐞𝐯𝐢𝐜𝐞 𝐀𝐏𝐈 ] 𝐢𝐬 𝐚 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐌𝐮𝐥𝐭𝐢𝐏𝐮𝐫𝐩𝐨𝐬𝐞-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐰𝐢𝐭𝐡 𝐌𝐨𝐝𝐞𝐫𝐚𝐭𝐢𝐨𝐧,𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝟏𝟎𝟎+ 𝐦𝐨𝐫𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬! 
 ║ 🐞𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 +918436686758,917430922909
@@ -12,10 +12,10 @@
 ║ In short, Fork At Your Own Risk.
 ╚════════════╝
 */
-("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє куяєв ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє _vaт ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
 module.exports = async (νℓкуяє, vcнaт, update) => {
   console.log(
-    "\n◎✕———————————————————————✕ νℓкуяє куяєв ву кяyкєηz ✕———————————————————————✕◎"
+    "\n◎✕———————————————————————✕ νℓкуяє _vaт ву кяyкєηz ✕———————————————————————✕◎"
   );
   console.log(
     νℓкуяє.chalk.blueBright("       🖊️ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝: "),
@@ -34,280 +34,281 @@ module.exports = async (νℓкуяє, vcнaт, update) => {
     νℓкуяє.chalk.green(vcнaт.chat)
   );
   console.log(
-    "◎✕———————————————————————✕ νℓкуяє куяєв ву кяyкєηz ✕———————————————————————✕◎\n"
+    "◎✕———————————————————————✕ νℓкуяє _vaт ву кяyкєηz ✕———————————————————————✕◎\n"
   );
-  ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє куяєв ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+  ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє _vaт ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   switch (νℓкуяє.command) {
     case "vlkyre":
-      куяєв = require("../Plugins/vlkyre");
+      _vaт = require("../Plugins/vlkyre");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "play":
-      куяєв = require("../Plugins/𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥📥𝘫𝘴/youtube");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥📥𝘫𝘴/youtube");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
 
     case "bite":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/bite");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/bite");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "blush":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/blush");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/blush");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "bonk":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/bonk");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/bonk");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "bored":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/bored");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/bored");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "confused":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/confused");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/confused");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "cry":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/cry");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/cry");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "cuddle":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/cuddle");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/cuddle");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "dance":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/dance");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/dance");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "goodnight":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/goodnight");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/goodnight");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "happy":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/happy");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/happy");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "highfive":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/highfive");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/highfive");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "hug":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/hug");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/hug");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "kick":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/kick");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/kick");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "kill":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/kill");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/kill");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "kiss":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/kiss");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/kiss");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "nervous":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/nervous");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/nervous");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "pat":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/pat");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/pat");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "poke":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/poke");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/poke");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "punch":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/punch");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/punch");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "sad":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/sad");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/sad");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "scream":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/scream");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/scream");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "slap":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/slap");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/slap");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "smile":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/smile");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/smile");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "stare":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/stare");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/stare");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "wave":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/wave");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/wave");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "wink":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/wink");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/wink");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "yeet":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/yeet");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/yeet");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "yes":
-      куяєв = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/yes");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/yes");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
 
     case "h.anime":
-      куяєв = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_anime");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_anime");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "h.download":
-      куяєв = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_download");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_download");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "h.filter":
-      куяєв = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_filter");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_filter");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "h.game":
-      куяєв = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_game");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_game");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "h.group":
-      куяєв = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_group");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_group");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "h.hentai":
-      куяєв = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_hentai");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_hentai");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "h.image":
-      куяєв = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_image");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_image");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "h.search":
-      куяєв = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_search");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_search");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "h.ytfilter":
-      куяєв = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_ytfilter");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_ytfilter");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
 
     case "bassboost":
-      куяєв = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/bassboost");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/bassboost");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "echo":
-      куяєв = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/echo");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/echo");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "flanger":
-      куяєв = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/flanger");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/flanger");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "nightcore":
-      куяєв = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/nightcore");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/nightcore");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "phaser":
-      куяєв = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/phaser");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/phaser");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "reverse":
-      куяєв = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/reverse");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/reverse");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "slow":
-      куяєв = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/slow");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/slow");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "speed":
-      куяєв = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/speed");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/speed");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "subboost":
-      куяєв = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/subboost");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/subboost");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "superslow":
-      куяєв = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/superslow");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/superslow");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "superspeed":
-      куяєв = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/superspeed");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/superspeed");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "surround":
-      куяєв = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/surround");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/surround");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "vaporwave":
-      куяєв = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/vaporwave");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/vaporwave");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "vibrato":
-      куяєв = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/vibrato");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/vibrato");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
 
     case "ytbassboost":
-      куяєв = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytbassboost");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytbassboost");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "ytecho":
-      куяєв = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytecho");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytecho");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "ytflanger":
-      куяєв = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytflanger");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytflanger");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "ytnightcore":
-      куяєв = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytnightcore");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytnightcore");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "ytphaser":
-      куяєв = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytphaser");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytphaser");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "ytreverse":
-      куяєв = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytreverse");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytreverse");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "ytslow":
-      куяєв = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytslow");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytslow");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "ytspeed":
-      куяєв = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytspeed");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytspeed");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "ytsubboost":
-      куяєв = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsubboost");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsubboost");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "ytsuperslow":
-      куяєв = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsuperslow");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsuperslow");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "ytsuperspeed":
-      куяєв = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsuperspeed");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsuperspeed");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "ytsurround":
-      куяєв = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsurround");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsurround");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "ytvaporwave":
-      куяєв = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytvaporwave");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytvaporwave");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
     case "ytvibrato":
-      куяєв = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytvibrato");
-      куяєв(νℓкуяє, vcнaт).catch((error) => console.log(error));
+      _vaт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytvibrato");
+      _vaт(νℓкуяє, vcнaт).catch((error) => vcнaт.reply(error));
       break;
 
     default:
@@ -321,7 +322,7 @@ module.exports = async (νℓкуяє, vcнaт, update) => {
       break;
   }
 };
-("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє куяєв ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє _vaт ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
 /*
 ╔⧉༻ [ 𝐕𝐥𝐤𝐲𝐫𝐞🕊️𝐌𝐮𝐥𝐭𝐢𝐃𝐞𝐯𝐢𝐜𝐞 𝐀𝐏𝐈 ] 𝐢𝐬 𝐚 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐌𝐮𝐥𝐭𝐢𝐏𝐮𝐫𝐩𝐨𝐬𝐞-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐰𝐢𝐭𝐡 𝐌𝐨𝐝𝐞𝐫𝐚𝐭𝐢𝐨𝐧,𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝟏𝟎𝟎+ 𝐦𝐨𝐫𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬! 
 ║ 🐞𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 +918436686758,917430922909
@@ -335,4 +336,4 @@ module.exports = async (νℓкуяє, vcнaт, update) => {
 ║ In short, Fork At Your Own Risk.
 ╚════════════╝
 */
-("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє куяєв ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє _vaт ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
