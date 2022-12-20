@@ -87,7 +87,7 @@ module.exports = async (νℓкуяє, vcнaт) => {
     νℓкуяє.exec(
       `${νℓкуяє.pathFFmpeg} -i ${randomOld} -af "flanger" ${randomNew}.mp3`,
       async (error) => {
-        return νℓкуяє.reply(`*😥Sorry:* _${νℓкуяє.pushname}_
+        return vcнaт.reply(`*😥Sorry:* _${νℓкуяє.pushname}_
 *❌ Error* 
 > There has been an API Error. Please try again later.
 
@@ -122,7 +122,7 @@ module.exports = async (νℓкуяє, vcнaт) => {
     );
     ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   } catch (error) {
-    return νℓкуяє.reply(`*😥Sorry:* _${νℓкуяє.pushname}_
+    return vcнaт.reply(`*😥Sorry:* _${νℓкуяє.pushname}_
 *❌ Error* 
 > There has been an API Error. Please try again later.
 
