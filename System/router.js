@@ -197,89 +197,117 @@ module.exports = async (νℓкуяє, vcнaт, update) => {
       break;
 
     case "bassboost":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/bassboost")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/bassboost");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "echo":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/echo")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/echo");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "flanger":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/flanger")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/flanger");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "nightcore":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/nightcore")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/nightcore");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "phaser":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/phaser")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/phaser");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "reverse":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/reverse")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/reverse");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "slow":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/slow")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/slow");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "speed":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/speed")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/speed");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "subboost":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/subboost")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/subboost");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "superslow":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/superslow")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/superslow");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "superspeed":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/superspeed")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/superspeed");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "surround":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/surround")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/surround");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "vaporwave":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/vaporwave")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/vaporwave");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "vibrato":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/vibrato")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/vibrato");
+      вσт(νℓкуяє, vcнaт);
       break;
 
     case "ytbassboost":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytbassboost")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytbassboost");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "ytecho":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytecho")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytecho");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "ytflanger":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytflanger")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytflanger");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "ytnightcore":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytnightcore")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytnightcore");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "ytphaser":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytphaser")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytphaser");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "ytreverse":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytreverse")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytreverse");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "ytslow":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytslow")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytslow");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "ytspeed":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytspeed")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytspeed");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "ytsubboost":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsubboost")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsubboost");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "ytsuperslow":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsuperslow")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsuperslow");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "ytsuperspeed":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsuperspeed")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsuperspeed");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "ytsurround":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsurround")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsurround");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "ytvaporwave":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytvaporwave")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytvaporwave");
+      вσт(νℓкуяє, vcнaт);
       break;
     case "ytvibrato":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytvibrato")(νℓкуяє, vChat);
+      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytvibrato");
+      вσт(νℓкуяє, vcнaт);
       break;
 
     default:
