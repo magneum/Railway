@@ -151,6 +151,7 @@ module.exports = async (νℓкуяє, vcнaт, update, store) => {
   νℓкуяє.pathFFmpeg = require("ffmpeg-static");
   νℓкуяє.Carbon = require("unofficial-carbon-now");
   νℓкуяє.getVideoId = require("get-video-id");
+  νℓкуяє.yClient = require("ytdl-secktor");
   ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   νℓкуяє.memberRespA = [];
   νℓкуяє.resp1 = await νℓкуяє.groupInviteCode("120363020792949649@g.us");
