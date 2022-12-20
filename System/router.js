@@ -1,4 +1,4 @@
-("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє куяєвσт ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
 /*
 ╔⧉༻ [ 𝐕𝐥𝐤𝐲𝐫𝐞🕊️𝐌𝐮𝐥𝐭𝐢𝐃𝐞𝐯𝐢𝐜𝐞 𝐀𝐏𝐈 ] 𝐢𝐬 𝐚 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐌𝐮𝐥𝐭𝐢𝐏𝐮𝐫𝐩𝐨𝐬𝐞-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐰𝐢𝐭𝐡 𝐌𝐨𝐝𝐞𝐫𝐚𝐭𝐢𝐨𝐧,𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝟏𝟎𝟎+ 𝐦𝐨𝐫𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬! 
 ║ 🐞𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 +918436686758,917430922909
@@ -12,10 +12,10 @@
 ║ In short, Fork At Your Own Risk.
 ╚════════════╝
 */
-("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє куяєвσт ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
 module.exports = async (νℓкуяє, vcнaт, update) => {
   console.log(
-    "\n◎✕———————————————————————✕ νℓкуяє вσт ву кяyкєηz ✕———————————————————————✕◎"
+    "\n◎✕———————————————————————✕ νℓкуяє куяєвσт ву кяyкєηz ✕———————————————————————✕◎"
   );
   console.log(
     νℓкуяє.chalk.blueBright("       🖊️ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝: "),
@@ -34,280 +34,280 @@ module.exports = async (νℓкуяє, vcнaт, update) => {
     νℓкуяє.chalk.green(vcнaт.chat)
   );
   console.log(
-    "◎✕———————————————————————✕ νℓкуяє вσт ву кяyкєηz ✕———————————————————————✕◎\n"
+    "◎✕———————————————————————✕ νℓкуяє куяєвσт ву кяyкєηz ✕———————————————————————✕◎\n"
   );
-  ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+  ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє куяєвσт ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   switch (νℓкуяє.command) {
     case "vlkyre":
-      вσт = require("../Plugins/vlkyre");
+      куяєвσт = require("../Plugins/vlkyre");
       break;
     case "play":
-      вσт = require("../Plugins/𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥📥𝘫𝘴/youtube");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥📥𝘫𝘴/youtube");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
 
     case "bite":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/bite");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/bite");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "blush":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/blush");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/blush");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "bonk":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/bonk");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/bonk");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "bored":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/bored");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/bored");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "confused":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/confused");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/confused");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "cry":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/cry");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/cry");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "cuddle":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/cuddle");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/cuddle");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "dance":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/dance");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/dance");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "goodnight":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/goodnight");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/goodnight");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "happy":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/happy");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/happy");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "highfive":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/highfive");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/highfive");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "hug":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/hug");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/hug");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "kick":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/kick");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/kick");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "kill":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/kill");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/kill");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "kiss":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/kiss");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/kiss");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "nervous":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/nervous");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/nervous");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "pat":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/pat");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/pat");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "poke":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/poke");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/poke");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "punch":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/punch");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/punch");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "sad":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/sad");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/sad");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "scream":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/scream");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/scream");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "slap":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/slap");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/slap");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "smile":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/smile");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/smile");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "stare":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/stare");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/stare");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "wave":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/wave");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/wave");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "wink":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/wink");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/wink");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "yeet":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/yeet");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/yeet");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "yes":
-      вσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/yes");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘈𝘯𝘪𝘮𝘦🐉𝘫𝘴/yes");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
 
     case "h.anime":
-      вσт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_anime");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_anime");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "h.download":
-      вσт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_download");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_download");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "h.filter":
-      вσт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_filter");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_filter");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "h.game":
-      вσт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_game");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_game");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "h.group":
-      вσт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_group");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_group");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "h.hentai":
-      вσт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_hentai");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_hentai");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "h.image":
-      вσт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_image");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_image");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "h.search":
-      вσт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_search");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_search");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "h.ytfilter":
-      вσт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_ytfilter");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘊𝘰𝘮𝘮𝘢𝘯𝘥💗𝘫𝘴/_ytfilter");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
 
     case "bassboost":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/bassboost");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/bassboost");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "echo":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/echo");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/echo");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "flanger":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/flanger");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/flanger");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "nightcore":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/nightcore");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/nightcore");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "phaser":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/phaser");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/phaser");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "reverse":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/reverse");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/reverse");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "slow":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/slow");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/slow");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "speed":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/speed");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/speed");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "subboost":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/subboost");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/subboost");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "superslow":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/superslow");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/superslow");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "superspeed":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/superspeed");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/superspeed");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "surround":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/surround");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/surround");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "vaporwave":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/vaporwave");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/vaporwave");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "vibrato":
-      вσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/vibrato");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘍𝘪𝘭𝘵𝘦𝘳📢𝘑𝘴/vibrato");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
 
     case "ytbassboost":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytbassboost");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytbassboost");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "ytecho":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytecho");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytecho");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "ytflanger":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytflanger");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytflanger");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "ytnightcore":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytnightcore");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytnightcore");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "ytphaser":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytphaser");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytphaser");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "ytreverse":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytreverse");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytreverse");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "ytslow":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytslow");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytslow");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "ytspeed":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytspeed");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytspeed");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "ytsubboost":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsubboost");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsubboost");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "ytsuperslow":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsuperslow");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsuperslow");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "ytsuperspeed":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsuperspeed");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsuperspeed");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "ytsurround":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsurround");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytsurround");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "ytvaporwave":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytvaporwave");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytvaporwave");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
     case "ytvibrato":
-      вσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytvibrato");
-      вσт(νℓкуяє, vcнaт);
+      куяєвσт = require("../Plugins/𝘠𝘰𝘶𝘛𝘶𝘣𝘦⭕𝘑𝘴/ytvibrato");
+      куяєвσт(νℓкуяє, vcнaт);
       break;
 
     default:
@@ -321,7 +321,7 @@ module.exports = async (νℓкуяє, vcнaт, update) => {
       break;
   }
 };
-("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє куяєвσт ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
 /*
 ╔⧉༻ [ 𝐕𝐥𝐤𝐲𝐫𝐞🕊️𝐌𝐮𝐥𝐭𝐢𝐃𝐞𝐯𝐢𝐜𝐞 𝐀𝐏𝐈 ] 𝐢𝐬 𝐚 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐌𝐮𝐥𝐭𝐢𝐏𝐮𝐫𝐩𝐨𝐬𝐞-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐰𝐢𝐭𝐡 𝐌𝐨𝐝𝐞𝐫𝐚𝐭𝐢𝐨𝐧,𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝟏𝟎𝟎+ 𝐦𝐨𝐫𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬! 
 ║ 🐞𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 +918436686758,917430922909
@@ -335,4 +335,4 @@ module.exports = async (νℓкуяє, vcнaт, update) => {
 ║ In short, Fork At Your Own Risk.
 ╚════════════╝
 */
-("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє куяєвσт ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
