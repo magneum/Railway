@@ -18,24 +18,24 @@ require("../../global.js");
 psname = ppath.basename(__filename);
 pfname = psname.slice(0, -3).toLowerCase();
 module.exports = async (νℓкуяє, vcнaт) => {
-try {
-var data = await νℓкуяє.fetchJson("https://api.waifu.pics/sfw/" + pfname);
-console.log(data);
-var rando = Math.random().toString(36).replace(".", "");
-var dataGname = `${pfname}_${rando}.gif`;
-var dataMname = `${pfname}_${rando}.mp4`;
-νℓкуяє
-.request(data)
-.pipe(νℓкуяє.fs.createWriteStream(dataGname))
-.on("close", () => {
-νℓкуяє.exec(
-νℓкуяє.pathFFmpeg +
-` -i ${dataGname} -pix_fmt yuv420p -c:v libx264 -movflags +faststart -filter:v crop='floor(in_w/2)*2:floor(in_h/2)*2' ${dataMname}`,
-async (error) => {
-if (error) {
-return vcнaт.reply(`*🕊️You:* ${
-νℓкуяє.pushname || "ɴᴏ_ɴᴀᴍᴇ"
-}\n*📢ID:* ${vcнaт.chat}
+  try {
+    var data = await νℓкуяє.fetchJson("https://api.waifu.pics/sfw/" + pfname);
+    console.log(data);
+    var rando = Math.random().toString(36).replace(".", "");
+    var dataGname = `${pfname}_${rando}.gif`;
+    var dataMname = `${pfname}_${rando}.mp4`;
+    νℓкуяє
+      .request(data)
+      .pipe(νℓкуяє.fs.createWriteStream(dataGname))
+      .on("close", () => {
+        νℓкуяє.exec(
+          νℓкуяє.pathFFmpeg +
+            ` -i ${dataGname} -pix_fmt yuv420p -c:v libx264 -movflags +faststart -filter:v crop='floor(in_w/2)*2:floor(in_h/2)*2' ${dataMname}`,
+          async (error) => {
+            if (error) {
+              return vcнaт.reply(`*🕊️You:* ${
+                νℓкуяє.pushname || "ɴᴏ_ɴᴀᴍᴇ"
+              }\n*📢ID:* ${vcнaт.chat}
 
 *😥Sorry:* _${νℓкуяє.pushname}_
 *❌ Error* 
@@ -43,81 +43,81 @@ return vcнaт.reply(`*🕊️You:* ${
 
 *🐞 Bug* 
 > ${error}`);
-}
-("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
-if (νℓкуяє.args[0] && νℓкуяє.args[0].startsWith("@")) {
-let mention = νℓкуяє.mentionByTag;
-let dataFor =
-(await mention[0]) || vcнaт.msg.contextInfo.participant;
-return await νℓкуяє
-.sendMessage(
-vcнaт.chat,
-{
-gifPlayback: true,
-video: νℓкуяє.fs.readFileSync(dataMname),
-caption: `*🔖Here, ${pfname} For ${νℓкуяє.pushname}:*
+            }
+            ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+            if (νℓкуяє.args[0] && νℓкуяє.args[0].startsWith("@")) {
+              let mention = νℓкуяє.mentionByTag;
+              let dataFor =
+                (await mention[0]) || vcнaт.msg.contextInfo.participant;
+              return await νℓкуяє
+                .sendMessage(
+                  vcнaт.chat,
+                  {
+                    gifPlayback: true,
+                    video: νℓкуяє.fs.readFileSync(dataMname),
+                    caption: `*🔖Here, ${pfname} For ${νℓкуяє.pushname}:*
 *🎋Feeling:* ${pfname}
 *📢From:* ${νℓкуяє.pushname}
 *⚡For:* @${dataFor.split("@")[0] || ""}`,
-mentions: [dataFor, vcнaт.sender],
-},
-{ quoted: vcнaт }
-)
-.then(
-νℓкуяє.fs.unlinkSync(dataGname),
-νℓкуяє.fs.unlinkSync(dataMname)
-);
-("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
-} else if (νℓкуяє.mentionByReply) {
-let dataFor =
-vcнaт.mtype == "extendedTextMessage" &&
-vcнaт.message.extendedTextMessage.contextInfo != null
-? vcнaт.message.extendedTextMessage.contextInfo
-.participant || ""
-: "";
-return await νℓкуяє
-.sendMessage(
-vcнaт.chat,
-{
-gifPlayback: true,
-video: νℓкуяє.fs.readFileSync(dataMname),
-caption: `*🔖Here, ${pfname} For ${νℓкуяє.pushname}:*
+                    mentions: [dataFor, vcнaт.sender],
+                  },
+                  { quoted: vcнaт }
+                )
+                .then(
+                  νℓкуяє.fs.unlinkSync(dataGname),
+                  νℓкуяє.fs.unlinkSync(dataMname)
+                );
+              ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+            } else if (νℓкуяє.mentionByReply) {
+              let dataFor =
+                vcнaт.mtype == "extendedTextMessage" &&
+                vcнaт.message.extendedTextMessage.contextInfo != null
+                  ? vcнaт.message.extendedTextMessage.contextInfo.participant ||
+                    ""
+                  : "";
+              return await νℓкуяє
+                .sendMessage(
+                  vcнaт.chat,
+                  {
+                    gifPlayback: true,
+                    video: νℓкуяє.fs.readFileSync(dataMname),
+                    caption: `*🔖Here, ${pfname} For ${νℓкуяє.pushname}:*
 *🎋Feeling:* ${pfname}
 *📢From:* ${νℓкуяє.pushname}
 *⚡For:* @${dataFor.split("@")[0] || ""}`,
-mentions: [dataFor, vcнaт.sender],
-},
-{ quoted: vcнaт }
-)
-.then(
-νℓкуяє.fs.unlinkSync(dataGname),
-νℓкуяє.fs.unlinkSync(dataMname)
-);
-("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
-} else {
-return await νℓкуяє
-.sendMessage(
-vcнaт.chat,
-{
-gifPlayback: true,
-video: νℓкуяє.fs.readFileSync(dataMname),
-caption: `*🔖Here, ${pfname} For ${νℓкуяє.pushname}:*
+                    mentions: [dataFor, vcнaт.sender],
+                  },
+                  { quoted: vcнaт }
+                )
+                .then(
+                  νℓкуяє.fs.unlinkSync(dataGname),
+                  νℓкуяє.fs.unlinkSync(dataMname)
+                );
+              ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
+            } else {
+              return await νℓкуяє
+                .sendMessage(
+                  vcнaт.chat,
+                  {
+                    gifPlayback: true,
+                    video: νℓкуяє.fs.readFileSync(dataMname),
+                    caption: `*🔖Here, ${pfname} For ${νℓкуяє.pushname}:*
 *⚡For:* ${νℓкуяє.pushname}
 *🎋Feeling:* ${pfname}`,
-},
-{ quoted: vcнaт }
-)
-.then(
-νℓкуяє.fs.unlinkSync(dataGname),
-νℓкуяє.fs.unlinkSync(dataMname)
-);
-}
-}
-);
-});
-} catch (error) {
-return νℓкуяє.grab(νℓкуяє, vcнaт, error);
-}
+                  },
+                  { quoted: vcнaт }
+                )
+                .then(
+                  νℓкуяє.fs.unlinkSync(dataGname),
+                  νℓкуяє.fs.unlinkSync(dataMname)
+                );
+            }
+          }
+        );
+      });
+  } catch (error) {
+    return νℓкуяє.grab(νℓкуяє, vcнaт, error);
+  }
 };
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
 /*

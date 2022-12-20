@@ -72,8 +72,8 @@ module.exports = async (νℓкуяє, vcнaт) => {
               let dataFor =
                 vcнaт.mtype == "extendedTextMessage" &&
                 vcнaт.message.extendedTextMessage.contextInfo != null
-                  ? vcнaт.message.extendedTextMessage.contextInfo
-                      .participant || ""
+                  ? vcнaт.message.extendedTextMessage.contextInfo.participant ||
+                    ""
                   : "";
               return await νℓкуяє
                 .sendMessage(
@@ -116,12 +116,7 @@ module.exports = async (νℓкуяє, vcнaт) => {
         );
       });
   } catch (error) {
-    return vcнaт.reply(`*😥Sorry:* _${νℓкуяє.pushname}_
-*❌ Error* 
-> There has been an API Error. Please try again later.
-
-*🐞 Bug* 
-> ${error}`);
+    return νℓкуяє.grab(νℓкуяє, vcнaт, error);
   }
 };
 ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
