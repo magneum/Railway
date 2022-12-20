@@ -36,7 +36,7 @@ module.exports = async (νℓкуяє, vcнaт) => {
       νℓкуяє.exec(
         `${νℓкуяє.pathFFmpeg} -i ${media} -af "surround" ${random}.mp3`,
         async (error) => {
-          return νℓкуяє.reply(`*🕊️You:* ${
+          return vcнaт.reply(`*🕊️You:* ${
             νℓкуяє.pushname || "ɴᴏ_ɴᴀᴍᴇ"
           }\n*📢ID:* ${νℓcнαт.chat}
 
@@ -83,7 +83,7 @@ module.exports = async (νℓкуяє, vcнaт) => {
     }
     ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяукєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
   } catch (error) {
-    return νℓкуяє.reply(`*😥Sorry:* _${νℓкуяє.pushname}_
+    return vcнaт.reply(`*😥Sorry:* _${νℓкуяє.pushname}_
 *❌ Error* 
 > There has been an API Error. Please try again later.
 
