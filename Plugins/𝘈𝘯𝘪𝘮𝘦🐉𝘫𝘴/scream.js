@@ -41,7 +41,7 @@ module.exports = async (νℓкуяє, vcнaт) => {
             ` -i ${dataGname} -pix_fmt yuv420p -c:v libx264 -movflags +faststart -filter:v crop='floor(in_w/2)*2:floor(in_h/2)*2' ${dataMname}`,
           async (error) => {
             if (error) {
-              return νℓкуяє.reply(`*🕊️You:* ${
+              return vcнaт.reply(`*🕊️You:* ${
                 νℓкуяє.pushname || "ɴᴏ_ɴᴀᴍᴇ"
               }\n*📢ID:* ${vcнaт.chat}
 
@@ -124,7 +124,7 @@ module.exports = async (νℓкуяє, vcнaт) => {
         );
       });
   } catch (error) {
-    return νℓкуяє.reply(`*😥Sorry:* _${νℓкуяє.pushname}_
+    return vcнaт.reply(`*😥Sorry:* _${νℓкуяє.pushname}_
 *❌ Error* 
 > There has been an API Error. Please try again later.
 
