@@ -85,7 +85,7 @@ module.exports = async (νℓкуяє, vcнaт) => {
       thumbUrl
     );
     νℓкуяє.exec(
-      `${νℓкуяє.pathFFmpeg} -i ${randomOld} -af "apulsator=hz=0.08" ${randomNew}.mp3`,
+      `${νℓкуяє.pathFFmpeg} -i ${randomOld} -af "aecho=0.8:0.9:1000:0.3" ${randomNew}.mp3`,
       async (error) => {
         return νℓкуяє.reply(`*😥Sorry:* _${νℓкуяє.pushname}_
 *❌ Error* 
