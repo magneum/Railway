@@ -20,7 +20,7 @@ pfname = psname.slice(0, -3).toLowerCase();
 module.exports = async (νℓкуяє, vcнaт) => {
   try {
     if (!νℓкуяє.args.join(" ")) {
-      return νℓcнαт.reply(
+      return vcнaт.reply(
         `*😥Sorry:* _${νℓкуяє.pushname}_
 *❌Error* 
 > _No query provided!_
@@ -32,7 +32,7 @@ module.exports = async (νℓкуяє, vcнaт) => {
     ("◎☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱[ νℓкуяє вσт ву кяyкєηz ]☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱☱◎");
     if (νℓкуяє.args.join(" ").includes("yout")) {
       if (!νℓкуяє.TubeRegex.test(νℓкуяє.args.join(" "))) {
-        return νℓcнαт.reply(
+        return vcнaт.reply(
           `*😥Sorry:* _${νℓкуяє.pushname}_
 *❌Error* 
 > _No query provided!_
@@ -47,7 +47,7 @@ module.exports = async (νℓкуяє, vcнaт) => {
       limit: 1,
     });
     if (!yt_info[0].url) {
-      return νℓcнαт.reply(
+      return vcнaт.reply(
         `*😥Sorry:* _${νℓкуяє.pushname}_
 *❌Error* 
 > _No Music Found!_`
