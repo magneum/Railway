@@ -53,7 +53,7 @@
     "request": "2.88.2",
     "scrape-primbon": "1.1.0",
     "secktor-pack": "^0.0.1-development",
-    "sequelize": "^6.7.0",
+    "sequelize": "^6.28.2",
     "shentai": "2.0.0",
     "simple-git": "3.14.1",
     "spinnies": "0.5.1",
